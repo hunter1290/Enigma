@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    &>ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content:space-evenly;
+
+        &>li>a{
+            text-decoration: none;
+        }
+    }
+}
